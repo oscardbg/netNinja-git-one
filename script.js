@@ -1,6 +1,10 @@
-var a1=document.querySelector('a:nth-child(1)');
+window.onload = function(){
 
-a1.onclick=function(){
+    var a1=document.querySelector('a:nth-child(1)');
+
     var nav1=document.querySelector('nav');
-    nav1.style.background='purple';
+
+    a1.onmouseover=function(){    
+        nav1.style.background='purple';
+    }
 }
