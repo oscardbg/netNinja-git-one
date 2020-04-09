@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<TITLE>For Loops</TITLE>
+<h1>Number Factorial Using For loops</h1>
+</head>
+<body>
+ENTER NUMBER	: <input id="Num">
+<br>
+<br>
+<button onclick="Fctrl()">Factorial</button>
+<br>
+<br>
+THE FACTORIAL IS: <input id="ans">
+
+<SCRIPT LANGUAGE = "Javascript">
+	function Fctrl(){
+	var a=1;
+	var b;
+	var c;
+	b=parseInt(document.getElementById("Num").value)
+	for(c=1;c<=b;c++){
+		a=(a*c);
+	}
+	document.getElementById("ans").value=a;
+}
+
+
+</SCRIPT>
+
+</body>
+</html>
