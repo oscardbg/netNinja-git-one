@@ -8,5 +8,6 @@ window.onload = function(){
 
     a1.onmouseover=function(){    
         nav1.style.background='purple';
+        console.log(`looking at my repo's`)
     }
 }
