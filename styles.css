@@ -1,3 +1,7 @@
 bod{
     font-family: Arial, Helvetica, sans-serif; background: #222; color: #fff;
 }
+.pr-class {
+    font-weight: bolder;
+    color: darkslateblue;
+}
